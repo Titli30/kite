@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+}
+
+#landing-page {
+  height: 100vh;
+  background: linear-gradient(to right, #58c6ef, #1b94b4);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.hero button {
+  margin-top: 25px;
+  padding: 10px 25px;
+  font-size: 1em;
+  background: white;
+  color: #1b94b4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.switchers {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#resume-builder {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 30px;
+}
+
+.form-container {
+  width: 40%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  background: #1b94b4;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#cv-preview {
+  width: 60%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 90vh;
+  border-left: 2px solid #ccc;
+}
+
+/* Style the live CV preview similar to your image */
+#cv-preview h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+#cv-preview img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
